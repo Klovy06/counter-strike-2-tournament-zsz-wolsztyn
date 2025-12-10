@@ -8,3 +8,8 @@ cwd = "./"
 
 [assets]
 directory = ".next/static"
+
+[env.production]
+routes = [
+  { pattern = "cs2zsz.klovy.org", zone_id = "" }
+]
