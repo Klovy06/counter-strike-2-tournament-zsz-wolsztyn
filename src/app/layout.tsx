@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Counter-Strike 2 Tournament | ZSZ Wolsztyn",
   description:
     "Official broadcast website of the Counter-Strike 2 tournament at ZSZ Wolsztyn.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({
