@@ -1,13 +1,6 @@
 name = "cs2-turniej"
 type = "javascript"
-account_id = ""
-workers_dev = true
 
 [build]
 command = "npm run build"
 cwd = "./"
-
-[env.production]
-account_id = ""
-route = "https://cs2-turniej.pages.dev/*"
-zone_id = ""
