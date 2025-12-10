@@ -2,17 +2,12 @@ name = "cs2-turniej"
 type = "javascript"
 account_id = ""
 workers_dev = true
-main = "src/index.ts"
-build = { command = "npm run build" }
-env = {}
-
-[env.production]
-route = "https://cs2-turniej.pages.dev/*"
-zone_id = ""
 
 [build]
 command = "npm run build"
 cwd = "./"
 
-[[triggers.crons]]
-cron = "0 0 * * *"
+[env.production]
+account_id = ""
+route = "https://cs2-turniej.pages.dev/*"
+zone_id = ""
