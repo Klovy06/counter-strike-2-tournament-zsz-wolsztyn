@@ -1,6 +1,11 @@
 name = "cs2-turniej"
 type = "javascript"
+compatibility_date = "2025-12-10"
 
 [build]
 command = "npm run build"
 cwd = "./"
+
+[assets]
+directory = ".next/static"
+binding = "ASSETS"
