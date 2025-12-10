@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const channel = "zszwolsztyn2025";
-  const parentDomain = "cs2zsz.klovy.org"; // podmień na swoją domenę (wymóg Twitcha)
+  const parentDomain = "cs2zsz.klovy.org"; 
   const playerSrc = `https://player.twitch.tv/?channel=${channel}&parent=${parentDomain}&muted=true&autoplay=true`;
   const channelUrl = `https://twitch.tv/${channel}`;
 
