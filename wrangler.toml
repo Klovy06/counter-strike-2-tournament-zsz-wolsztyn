@@ -11,5 +11,7 @@ directory = ".next/static"
 
 [env.production]
 routes = [
-  { pattern = "cs2zsz.klovy.org", zone_id = "" }
+  # Use a wildcard so all paths on the domain are routed to the Worker
+  # Fill `zone_id` from your Cloudflare dashboard (zone / site id)
+  { pattern = "cs2zsz.klovy.org/*", zone_id = "" }
 ]
