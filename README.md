@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CS2 Tournament Streaming Page - ZSZ Wolsztyn
 
-## Getting Started
+A simple landing page for streaming the Counter-Strike 2 tournament at ZSZ Wolsztyn.
 
-First, run the development server:
+## About
 
+This project is a tournament preparation page featuring a Twitch stream embed for the CS2 tournament at Zespół Szkół Zawodowych in Wolsztyn.
+
+## Technology Used
+
+- NextJS (TypeScript) 
+
+## Setup
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Klovy06/counter-strike-2-tournament-zsz-wolsztyn.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Open `index.html` in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Update the Twitch channel name in the embed code to your tournament stream channel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Configuration
 
-## Learn More
+To change the Twitch stream, modify the channel parameter in the embed code:
 
-To learn more about Next.js, take a look at the following resources:
+```javascript
+channel: "zszwolsztyn2025"
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Live Stream
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The tournament will be streamed live on Twitch. Visit the page during tournament hours to watch the action!
 
-## Deploy on Vercel
+## School
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Zespół Szkół Zawodowych w Wolsztynie**
+- Location: Wolsztyn, Greater Poland, Poland
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is open source and available for educational purposes.
+
+## Contributing
+
+This is a school project. Suggestions and improvements are welcome!
+
+---
+
+Made with ❤️ for the CS2 tournament at ZSZ Wolsztyn
