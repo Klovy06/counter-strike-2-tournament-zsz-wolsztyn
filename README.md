@@ -8,7 +8,7 @@ This project is a tournament preparation page featuring a Twitch stream embed fo
 
 ## Technology Used
 
-- NextJS (TypeScript) 
+- NextJS (TypeScript) and CSS
 
 ## Setup
 
@@ -17,11 +17,11 @@ This project is a tournament preparation page featuring a Twitch stream embed fo
 git clone https://github.com/Klovy06/counter-strike-2-tournament-zsz-wolsztyn.git
 ```
 
-2. Open `index.html` in your browser
+2. Open `page.tsx - homepage` in your browser
 
 3. Update the Twitch channel name in the embed code to your tournament stream channel
 
-## 🔧 Configuration
+## Configuration
 
 To change the Twitch stream, modify the channel parameter in the embed code:
 
